@@ -1,0 +1,27 @@
+@import "reset.css";
+.PMS_Main {
+  padding-top: 33px;
+  font-size: 13px;
+}
+.main_display {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  font-weight: 700;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
