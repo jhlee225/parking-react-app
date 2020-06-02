@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import parkingReducer from "../features/parking/parkingSlice";
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    parking: parkingReducer,
   },
 });
